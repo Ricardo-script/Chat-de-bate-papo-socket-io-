@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (min-width: 0px)" href="small.css">
+    <link rel="stylesheet" media="screen and (max-width: 1350px)" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div id="capa">
+        <img src="capa.png" width="100%">
+        <form action="/chat" method="POST">
+            <label>Username</label>
+            <input type="text" name="usuario" required="" oninvalid="setCustomValidity('Nome é Obrigatório!')" oninput="setCustomValidity('')">
+            <input type="submit" id="btn" value="Entrar">
+        </form>
+    </div>
+</body>
+</html>
